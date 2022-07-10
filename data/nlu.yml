@@ -2,16 +2,17 @@ version: "3.1"
 
 nlu:
 
-- intent: inform
-  examples: |
-    - [site_A](resource_type)
+# - intent: inform
+#   examples: |
+#     - [site_A](resource_type)
 
 - intent: ask_resource
   examples: |
     - What is the current density of people?
-    - Can you tell me how crowded the [site_B](resource_type) is?
-    - How crowded is the [site_C](resource_type) now?
-    - How crowded is the [site_A](resource_type)?
+    - density
+# - Can you tell me how crowded the [site_B](resource_type) is?
+# - How crowded is the [site_C](resource_type) now?
+# - How crowded is the [site_A](resource_type)?
 
 # - intent: greet
 #   examples: |

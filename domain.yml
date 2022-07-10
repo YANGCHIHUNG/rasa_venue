@@ -9,17 +9,17 @@ intents:
   # - mood_unhappy
   - bot_challenge
   - ask_resource
-  - inform
+  # - inform
 
-entities:
-- resource_type
+# entities:
+# - resource_type
 
-slots:
-  resource_type:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: resource_type
+# slots:
+#   resource_type:
+#     type: text
+#     mappings:
+#     - type: from_entity
+#       entity: resource_type
 
 responses:
   # utter_greet:

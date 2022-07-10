@@ -5,11 +5,15 @@ stories:
 - story: asking for resource(query)
   steps:
   - intent: ask_resource
-  - action: utter_ask_type
-  - intent: inform
-  - slot_was_set: 
-    - resource_type: "site_A"
   - action: query_resource_type
+# - story: asking for resource(query)
+#   steps:
+#   - intent: ask_resource
+#   - action: utter_ask_type
+#   - intent: inform
+#   - slot_was_set: 
+#     - resource_type: "site_A"
+#   - action: query_resource_type
 # - story: happy path
 #   steps:
 #   - intent: greet
